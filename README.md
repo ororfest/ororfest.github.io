@@ -1,4 +1,3 @@
-ororfest.github.io
-==================
+# OROR2013
 
-2013 OROR festival informational site
+Please visit [ororfest.com](http://ororfest.com)
