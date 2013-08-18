@@ -1,6 +1,21 @@
 ---
 layout: base
 ---
-<div id="content">
+
+<!-- Above the fold content-->
+<div id="main">
   {{ content }}
 </div>
+
+<!-- load sections -->
+{% assign sorted_pages = site.pages | sort:"name" %}
+{% for sec in sorted_pages %}
+    {% if page.name != sec.name and sec.name != 'notfound' %}
+        <div class="section" id="{{ sec.name }}">
+          {{ sec.content | markdownify }}
+        </div>
+    {% endif %}
+{% endfor %}
+
+<!-- footer -->
+{% include footer.html %}
