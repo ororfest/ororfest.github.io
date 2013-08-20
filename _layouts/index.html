@@ -6,9 +6,7 @@ layout: base
 <div id="main">
   {{ content }}
 </div>
-    {% include who.html %}
-
-
+{% include who.html %}
 <!-- load sections -->
 {% assign sorted_pages = site.pages | sort:"name" %}
 {% for sec in sorted_pages %}
