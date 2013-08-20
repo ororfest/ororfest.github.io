@@ -78,12 +78,16 @@ body {
 }
 
 #main h2 {
-    font-size: 45px;
-    border: 5px solid white;
+    font-size: 55px;
+    border: 15px solid white;
     text-transform: uppercase;
     width: 400px;
     margin-left: auto;
     margin-right: auto;
+    padding: 30px;
+    margin-top: 40px;
+    text-align: left;
+    line-height: 62px;
 }
 
 #header {
