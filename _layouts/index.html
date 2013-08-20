@@ -6,6 +6,8 @@ layout: base
 <div id="main">
   {{ content }}
 </div>
+    {% include who.html %}
+
 
 <!-- load sections -->
 {% assign sorted_pages = site.pages | sort:"name" %}
@@ -15,5 +17,6 @@ layout: base
           {{ sec.content | markdownify }}
         </div>
     {% endif %}
+    
 {% endfor %}
 

@@ -6,5 +6,6 @@ title: OROR Fest
 ---
 
 # OROR
+
 ###|| ||
-## An Experimental unconference celebrating independent art and technology made here in Portland
+## An Experimental unfestival celebrating independent art and technology made here in Portland
