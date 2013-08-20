@@ -166,5 +166,13 @@ body {
         padding-top: 300px;
 }
 
+#footer {
+    width: 100%;
+    height: 40px;
+    text-align: center;
+    background: #8BA83E;
+    border-top: 1px solid #8BA83E;
+    padding-top: 10px;
+}
 
 
