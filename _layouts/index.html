@@ -12,6 +12,7 @@ layout: base
 {% for sec in sorted_pages %}
     {% if page.name != sec.name and sec.name != 'notfound' %}
         <div class="section" id="{{ sec.name }}">
+        	<br>
           {{ sec.content | markdownify }}
         </div>
     {% endif %}
