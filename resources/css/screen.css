@@ -1,0 +1,402 @@
+/* Welcome to Compass.
+ * In this file you should write your main styles. (or centralize your imports)
+ * Import this file using the following HTML or equivalent:
+ * <link href="/stylesheets/screen.css" media="screen, projection" rel="stylesheet" type="text/css" /> */
+/* line 17, ../../../../.rbenv/versions/1.9.3-p392/lib/ruby/gems/1.9.1/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font: inherit;
+  font-size: 100%;
+  vertical-align: baseline;
+}
+
+/* line 22, ../../../../.rbenv/versions/1.9.3-p392/lib/ruby/gems/1.9.1/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+html {
+  line-height: 1;
+}
+
+/* line 24, ../../../../.rbenv/versions/1.9.3-p392/lib/ruby/gems/1.9.1/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+ol, ul {
+  list-style: none;
+}
+
+/* line 26, ../../../../.rbenv/versions/1.9.3-p392/lib/ruby/gems/1.9.1/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+/* line 28, ../../../../.rbenv/versions/1.9.3-p392/lib/ruby/gems/1.9.1/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+caption, th, td {
+  text-align: left;
+  font-weight: normal;
+  vertical-align: middle;
+}
+
+/* line 30, ../../../../.rbenv/versions/1.9.3-p392/lib/ruby/gems/1.9.1/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+q, blockquote {
+  quotes: none;
+}
+/* line 103, ../../../../.rbenv/versions/1.9.3-p392/lib/ruby/gems/1.9.1/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+q:before, q:after, blockquote:before, blockquote:after {
+  content: "";
+  content: none;
+}
+
+/* line 32, ../../../../.rbenv/versions/1.9.3-p392/lib/ruby/gems/1.9.1/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+a img {
+  border: none;
+}
+
+/* line 116, ../../../../.rbenv/versions/1.9.3-p392/lib/ruby/gems/1.9.1/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section, summary {
+  display: block;
+}
+
+/* line 61, ../../../../.rbenv/versions/1.9.3-p392/lib/ruby/gems/1.9.1/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/typography/_vertical_rhythm.scss */
+* html {
+  font-size: 175%;
+}
+
+/* line 64, ../../../../.rbenv/versions/1.9.3-p392/lib/ruby/gems/1.9.1/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/typography/_vertical_rhythm.scss */
+html {
+  font-size: 28px;
+  line-height: 1.28571em;
+}
+
+/* line 28, ../../../scratch/sass/_sassvars.scss */
+a {
+  text-decoration: none;
+}
+
+/* line 29, ../../../scratch/sass/_sassvars.scss */
+li {
+  line-height: 36px;
+  font-size: 28px;
+}
+/* line 32, ../../../scratch/sass/_sassvars.scss */
+li.title {
+  font-size: 0.85714em;
+  line-height: 1.5em;
+}
+/* line 35, ../../../scratch/sass/_sassvars.scss */
+li a {
+  line-height: inherit;
+  font-size: inherit;
+}
+
+/* line 9, ../../../scratch/sass/screen.scss */
+* {
+  box-sizing: border-box;
+}
+
+/* line 13, ../../../scratch/sass/screen.scss */
+body, h1, h2, h3 {
+  font-family: Oswald, Arial, sans-serif;
+  color: white;
+}
+
+/* line 18, ../../../scratch/sass/screen.scss */
+a {
+  text-decoration: none;
+  color: whitesmoke;
+}
+
+/* line 23, ../../../scratch/sass/screen.scss */
+a:hover {
+  color: #ac5c97;
+}
+
+/* line 27, ../../../scratch/sass/screen.scss */
+strong {
+  font-weight: 400;
+}
+
+/* line 30, ../../../scratch/sass/screen.scss */
+body {
+  background: #a2c44a;
+}
+
+/* line 34, ../../../scratch/sass/screen.scss */
+#content {
+  float: none;
+  margin-left: auto;
+  margin-right: auto;
+}
+@media only screen and (max-width: 620px) {
+  /* line 34, ../../../scratch/sass/screen.scss */
+  #content {
+    width: 400px;
+  }
+}
+@media only screen and (min-width: 621px) and (max-width: 1023px) {
+  /* line 34, ../../../scratch/sass/screen.scss */
+  #content {
+    width: 500px;
+  }
+}
+@media only screen and (min-width: 1024px) {
+  /* line 34, ../../../scratch/sass/screen.scss */
+  #content {
+    width: 600px;
+  }
+}
+
+/* line 44, ../../../scratch/sass/screen.scss */
+#main {
+  overflow: auto;
+  width: 100%;
+  text-align: center;
+}
+
+/* line 49, ../../../scratch/sass/screen.scss */
+#main h1 {
+  text-align: center;
+  width: 100%;
+  font-weight: 300;
+}
+@media only screen and (max-width: 620px) {
+  /* line 49, ../../../scratch/sass/screen.scss */
+  #main h1 {
+    font-size: 120px;
+    margin: 35px 0px 0px;
+    line-height: 180px;
+  }
+}
+@media only screen and (min-width: 621px) and (max-width: 1023px) {
+  /* line 49, ../../../scratch/sass/screen.scss */
+  #main h1 {
+    font-size: 160px;
+    margin: 35px 0px 0px;
+    line-height: 200px;
+  }
+}
+@media only screen and (min-width: 1024px) {
+  /* line 49, ../../../scratch/sass/screen.scss */
+  #main h1 {
+    font-size: 190px;
+    margin: 55px 0px 0px;
+    line-height: 295px;
+  }
+}
+
+/* line 74, ../../../scratch/sass/screen.scss */
+#main h2 {
+  text-transform: uppercase;
+  width: 100%;
+  text-align: left;
+  overflow: auto;
+}
+@media only screen and (max-width: 620px) {
+  /* line 74, ../../../scratch/sass/screen.scss */
+  #main h2 {
+    font-size: 27px;
+    line-height: 45px;
+    border: 13px solid white;
+    padding: 25px;
+    margin-top: 10px;
+  }
+}
+@media only screen and (min-width: 621px) and (max-width: 1023px) {
+  /* line 74, ../../../scratch/sass/screen.scss */
+  #main h2 {
+    font-size: 40px;
+    line-height: 57px;
+    border: 15px solid white;
+    padding: 30px;
+    margin-top: 40px;
+  }
+}
+@media only screen and (min-width: 1024px) {
+  /* line 74, ../../../scratch/sass/screen.scss */
+  #main h2 {
+    font-size: 43px;
+    line-height: 62px;
+    border: 15px solid white;
+    padding: 30px;
+    margin-top: 40px;
+  }
+}
+
+/* line 104, ../../../scratch/sass/screen.scss */
+#main h3 {
+  font-size: 18px;
+  line-height: 40px;
+}
+
+/* line 109, ../../../scratch/sass/screen.scss */
+#header {
+  text-transform: uppercase;
+  width: 100%;
+  height: 45px;
+  float: left;
+  background-color: #b8e24d;
+  padding: 10px 10%;
+  font-size: 22px;
+  position: fixed;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+/* line 122, ../../../scratch/sass/screen.scss */
+#header a {
+  width: 25%;
+  text-align: center;
+  float: left;
+}
+
+/* line 127, ../../../scratch/sass/screen.scss */
+#header a:first-child {
+  text-align: left;
+}
+
+/* line 130, ../../../scratch/sass/screen.scss */
+#header a:last-child {
+  text-align: right;
+  float: right;
+}
+
+/* line 135, ../../../scratch/sass/screen.scss */
+#who {
+  width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+  overflow: auto;
+  margin-top: 200px;
+}
+
+/* line 143, ../../../scratch/sass/screen.scss */
+#who div {
+  float: left;
+}
+@media only screen and (max-width: 620px) {
+  /* line 143, ../../../scratch/sass/screen.scss */
+  #who div {
+    width: 100%;
+  }
+}
+@media only screen and (min-width: 621px) and (max-width: 1023px) {
+  /* line 143, ../../../scratch/sass/screen.scss */
+  #who div {
+    width: 100%;
+  }
+}
+@media only screen and (min-width: 1024px) {
+  /* line 143, ../../../scratch/sass/screen.scss */
+  #who div {
+    width: 280px;
+  }
+}
+
+/* line 156, ../../../scratch/sass/screen.scss */
+div.section {
+  font-weight: 300;
+}
+@media only screen and (max-width: 620px) {
+  /* line 156, ../../../scratch/sass/screen.scss */
+  div.section {
+    line-height: 28.8px;
+    font-size: 22.4px;
+  }
+}
+@media only screen and (min-width: 621px) and (max-width: 1023px) {
+  /* line 156, ../../../scratch/sass/screen.scss */
+  div.section {
+    line-height: 32.4px;
+    font-size: 25.2px;
+  }
+}
+
+/* line 172, ../../../scratch/sass/screen.scss */
+#who h2 {
+  font-weight: 400;
+  text-transform: uppercase;
+}
+@media only screen and (max-width: 620px) {
+  /* line 172, ../../../scratch/sass/screen.scss */
+  #who h2 {
+    line-height: 43.2px;
+    font-size: 33.6px;
+  }
+}
+@media only screen and (min-width: 621px) and (max-width: 1023px) {
+  /* line 172, ../../../scratch/sass/screen.scss */
+  #who h2 {
+    line-height: 54px;
+    font-size: 42px;
+  }
+}
+@media only screen and (min-width: 1024px) {
+  /* line 172, ../../../scratch/sass/screen.scss */
+  #who h2 {
+    line-height: 54px;
+    font-size: 42px;
+  }
+}
+
+/* line 189, ../../../scratch/sass/screen.scss */
+#pdx {
+  box-sizing: content-box;
+  background: transparent url(../images/from.png) bottom center no-repeat;
+  padding-right: 15px;
+}
+@media only screen and (max-width: 620px) {
+  /* line 189, ../../../scratch/sass/screen.scss */
+  #pdx {
+    background-size: 80%;
+    padding-bottom: 340px;
+  }
+}
+@media only screen and (min-width: 621px) and (max-width: 1023px) {
+  /* line 189, ../../../scratch/sass/screen.scss */
+  #pdx {
+    padding-bottom: 300px;
+  }
+}
+@media only screen and (min-width: 1024px) {
+  /* line 189, ../../../scratch/sass/screen.scss */
+  #pdx {
+    padding-bottom: 300px;
+  }
+}
+
+/* line 205, ../../../scratch/sass/screen.scss */
+#visitors {
+  box-sizing: content-box;
+  padding-left: 15px;
+  background: transparent url(../images/visitors.png) top center no-repeat;
+  padding-top: 340px;
+}
+@media only screen and (max-width: 620px) {
+  /* line 205, ../../../scratch/sass/screen.scss */
+  #visitors {
+    background-size: 80%;
+    padding-bottom: 340px;
+  }
+}
+
+/* line 216, ../../../scratch/sass/screen.scss */
+#footer {
+  font-size: 14px;
+  width: 100%;
+  height: 200px;
+  text-align: center;
+  background: #8ba83e;
+  border-top: 1px solid #8BA83E;
+  padding: 0 0 10px;
+  margin-top: 40px;
+}
