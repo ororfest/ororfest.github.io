@@ -359,7 +359,7 @@ div.section {
   /* line 190, ../../../scratch/sass/screen.scss */
   #pdx {
     background-size: 60%;
-    padding-bottom: 160px;
+    padding-bottom: 180px;
   }
 }
 @media only screen and (min-width: 481px) and (max-width: 1023px) {
@@ -385,7 +385,7 @@ div.section {
   /* line 206, ../../../scratch/sass/screen.scss */
   #visitors {
     background-size: 60%;
-    padding-bottom: 140px;
+    padding-top: 180px;
   }
 }
 @media only screen and (min-width: 481px) and (max-width: 1023px) {
