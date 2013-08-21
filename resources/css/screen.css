@@ -286,6 +286,7 @@ body {
 @media only screen and (max-width: 480px) {
   /* line 143, ../../../scratch/sass/screen.scss */
   #who div {
+    padding-left: 5%;
     width: 90%;
   }
 }
@@ -302,94 +303,105 @@ body {
   }
 }
 
-/* line 156, ../../../scratch/sass/screen.scss */
+/* line 157, ../../../scratch/sass/screen.scss */
 div.section {
   font-weight: 300;
 }
 @media only screen and (max-width: 480px) {
-  /* line 156, ../../../scratch/sass/screen.scss */
+  /* line 157, ../../../scratch/sass/screen.scss */
   div.section {
     line-height: 28.8px;
     font-size: 22.4px;
   }
 }
 @media only screen and (min-width: 481px) and (max-width: 1023px) {
-  /* line 156, ../../../scratch/sass/screen.scss */
+  /* line 157, ../../../scratch/sass/screen.scss */
   div.section {
     line-height: 32.4px;
     font-size: 25.2px;
   }
 }
 
-/* line 172, ../../../scratch/sass/screen.scss */
+/* line 173, ../../../scratch/sass/screen.scss */
 #who h2 {
   font-weight: 400;
   text-transform: uppercase;
 }
 @media only screen and (max-width: 480px) {
-  /* line 172, ../../../scratch/sass/screen.scss */
+  /* line 173, ../../../scratch/sass/screen.scss */
   #who h2 {
     line-height: 43.2px;
     font-size: 33.6px;
   }
 }
 @media only screen and (min-width: 481px) and (max-width: 1023px) {
-  /* line 172, ../../../scratch/sass/screen.scss */
+  /* line 173, ../../../scratch/sass/screen.scss */
   #who h2 {
     line-height: 54px;
     font-size: 42px;
   }
 }
 @media only screen and (min-width: 1024px) {
-  /* line 172, ../../../scratch/sass/screen.scss */
+  /* line 173, ../../../scratch/sass/screen.scss */
   #who h2 {
     line-height: 54px;
     font-size: 42px;
   }
 }
 
-/* line 189, ../../../scratch/sass/screen.scss */
+/* line 190, ../../../scratch/sass/screen.scss */
 #pdx {
   box-sizing: content-box;
   background: transparent url(../images/from.png) bottom center no-repeat;
   padding-right: 15px;
 }
 @media only screen and (max-width: 480px) {
-  /* line 189, ../../../scratch/sass/screen.scss */
+  /* line 190, ../../../scratch/sass/screen.scss */
   #pdx {
     background-size: 60%;
     padding-bottom: 160px;
   }
 }
 @media only screen and (min-width: 481px) and (max-width: 1023px) {
-  /* line 189, ../../../scratch/sass/screen.scss */
+  /* line 190, ../../../scratch/sass/screen.scss */
   #pdx {
     padding-bottom: 300px;
   }
 }
 @media only screen and (min-width: 1024px) {
-  /* line 189, ../../../scratch/sass/screen.scss */
+  /* line 190, ../../../scratch/sass/screen.scss */
   #pdx {
     padding-bottom: 300px;
   }
 }
 
-/* line 205, ../../../scratch/sass/screen.scss */
+/* line 206, ../../../scratch/sass/screen.scss */
 #visitors {
   box-sizing: content-box;
   padding-left: 15px;
   background: transparent url(../images/visitors.png) top center no-repeat;
-  padding-top: 340px;
 }
 @media only screen and (max-width: 480px) {
-  /* line 205, ../../../scratch/sass/screen.scss */
+  /* line 206, ../../../scratch/sass/screen.scss */
   #visitors {
     background-size: 60%;
     padding-bottom: 140px;
   }
 }
+@media only screen and (min-width: 481px) and (max-width: 1023px) {
+  /* line 206, ../../../scratch/sass/screen.scss */
+  #visitors {
+    padding-top: 340px;
+  }
+}
+@media only screen and (min-width: 1024px) {
+  /* line 206, ../../../scratch/sass/screen.scss */
+  #visitors {
+    padding-top: 340px;
+  }
+}
 
-/* line 216, ../../../scratch/sass/screen.scss */
+/* line 222, ../../../scratch/sass/screen.scss */
 #footer {
   font-size: 14px;
   width: 100%;
