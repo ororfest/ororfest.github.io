@@ -140,7 +140,7 @@ body {
 @media only screen and (max-width: 480px) {
   /* line 34, ../../../scratch/sass/screen.scss */
   #content {
-    width: 400px;
+    width: 320px;
   }
 }
 @media only screen and (min-width: 481px) and (max-width: 1023px) {
@@ -286,7 +286,7 @@ body {
 @media only screen and (max-width: 480px) {
   /* line 143, ../../../scratch/sass/screen.scss */
   #who div {
-    width: 100%;
+    width: 90%;
   }
 }
 @media only screen and (min-width: 481px) and (max-width: 1023px) {
@@ -357,7 +357,7 @@ div.section {
 @media only screen and (max-width: 480px) {
   /* line 189, ../../../scratch/sass/screen.scss */
   #pdx {
-    background-size: 80%;
+    background-size: 40%;
     padding-bottom: 340px;
   }
 }
@@ -384,7 +384,7 @@ div.section {
 @media only screen and (max-width: 480px) {
   /* line 205, ../../../scratch/sass/screen.scss */
   #visitors {
-    background-size: 80%;
+    background-size: 40%;
     padding-bottom: 340px;
   }
 }
