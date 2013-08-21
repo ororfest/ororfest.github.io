@@ -173,7 +173,7 @@ body {
   /* line 49, ../../../scratch/sass/screen.scss */
   #main h1 {
     font-size: 120px;
-    margin: 35px 0px 0px;
+    margin: 155px 0px 0px;
     line-height: 180px;
   }
 }
@@ -385,7 +385,7 @@ div.section {
   /* line 206, ../../../scratch/sass/screen.scss */
   #visitors {
     background-size: 60%;
-    padding-top: 180px;
+    padding-top: 220px;
   }
 }
 @media only screen and (min-width: 481px) and (max-width: 1023px) {
