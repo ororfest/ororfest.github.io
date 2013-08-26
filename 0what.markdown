@@ -1,6 +1,0 @@
----
-layout: section
-name: what
----
-
-
