@@ -473,3 +473,40 @@ hr {
 }
 
 div.section em { font-weight: 400;}
+
+#oror {
+    color: white;
+    float: left;
+    font-size: 108px;
+    line-height: 105px;
+    padding-left: 15px;
+}
+
+#when img {
+    float: left;
+}
+#when h2 {
+    clear: both;
+}
+#when h2 em {
+    color: #ac5c97;
+}
+#when li {
+    line-height: 31px;
+    font-size: 22px;
+    float: left;
+    width: 45%;
+    padding: 14px;
+    border-top: 1px solid #8BA83E;
+}
+
+@media only screen and (max-width: 480px) {
+#when li {
+    line-height: 31px;
+    font-size: 22px;
+    float: left;
+    width: 90%;
+    padding: 14px;
+    border-top: 1px solid white;
+}
+}
