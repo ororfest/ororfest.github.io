@@ -8,7 +8,7 @@ As soon as we open up the calendar, it's a free for all. Here's some of the high
 
 ##Gimme Shelter!
 *A 48 hour Micro-home building competition*
-Design, source, and build the most comfortable, good looking, easy to build, and sustainable micro-home you possibly can in a single weekend, spending no more than the equivalent of a single month's rent.
+Design, source, and build the most comfortable, good looking, easy to build, and sustainable micro-home you possibly can in a single weekend, spending no more than the equivalent of a single month's rent. [Read the Full Description](https://docs.google.com/a/ororfest.com/document/d/1jU3uQ5swenLVNgIzVUpnLOczJma3YGUTU1OE70KTFv0)
 <hr>
 ##Redesigning Politics for the Post-Internet Era
 *Forum led by Hack Oregon*
