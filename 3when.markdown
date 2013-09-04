@@ -11,7 +11,7 @@ name: when
 #Book your event now!
 <hr>
 ##HOW to book
-1 - Go to [Calagator](http://calagator.org) and post an event. Tag it #OROR
+1 - Go to [Calagator](http://calagator.org) and post an event. Tag it "OROR"
 
 2 - [Email us](mailto:info@ororfest.com?subject=Booked!)
 
