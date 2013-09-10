@@ -525,6 +525,12 @@ small {
     padding: 14px;
     border-top: 1px solid white;
 }
+#ororfest {
+
+    font-size: 75px;
+    line-height: 85px;
+
+}
 
 #header a {
  font-size: 14px;
