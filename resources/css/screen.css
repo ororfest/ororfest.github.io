@@ -32,6 +32,7 @@ html {
 /* line 24, ../../../../.rbenv/versions/1.9.3-p392/lib/ruby/gems/1.9.1/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
 ol, ul {
   list-style: none;
+  margin: 20px 0px;
 }
 
 /* line 26, ../../../../.rbenv/versions/1.9.3-p392/lib/ruby/gems/1.9.1/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
@@ -474,7 +475,7 @@ hr {
 
 div.section em { font-weight: 400;}
 
-#oror {
+#ororfest {
     color: white;
     float: left;
     font-size: 108px;
