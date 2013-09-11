@@ -4,7 +4,7 @@ name: when
 ---
 
 #When is this happening?
-<a href="http://calagator.org/events/search?tag=oror"><img src="/resources/images/calendar.png" alt="" /></a>
+<a href="http://calagator.org/events/search?tag=ororfest"><img src="/resources/images/calendar.png" alt="" /></a>
 #[#ororfest](http://calagator.org/events/search?tag=ororfest)
 
 
