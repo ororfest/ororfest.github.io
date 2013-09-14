@@ -254,7 +254,23 @@ body {
   margin-right: auto;
 }
 
+#social {
+position: absolute;
+left: 10px;
+width: 80px;
+}
 
+#social .twitter {
+    margin-top: -5px;
+}
+
+#footer .twitter img{
+    padding-top: 13px;
+}
+
+#footer a {
+    margin: 10px;
+}
 /* line 123, ../../../scratch/sass/screen.scss */
 #header a {
   width: 20%;
@@ -532,8 +548,32 @@ small {
 
 }
 
+#social {
+width: 15%;
+float: left;
+position: relative;
+padding: 0px 10px;
+margin-left: -10px;
+margin-right: 10px;
+}
+
+#social .twitter {
+    margin: 0px 0px 0px 10px;
+}
+#social a {
+    float: left;
+}
+#social a img {
+    height: 20px;
+}
+
 #header a {
  font-size: 14px;
+ width: 16%;
+}
+
+#header {
+    padding: 10px 10px;
 }
 
 }
