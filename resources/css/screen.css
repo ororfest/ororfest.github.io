@@ -518,6 +518,10 @@ div.section em { font-weight: 400;}
     min-height: 220px;
 }
 
+#what hr {
+    margin-bottom: 60px;
+}
+
 small {
     font-size: .7em;
     line-height: .8em;
