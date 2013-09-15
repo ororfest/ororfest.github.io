@@ -26,6 +26,11 @@ Six participants will present their findings from Detour/Dérive, an urban exper
 What the open-source community can teach us about empowering the democratic process
 
 <hr>
+##Bach : Beethoven : Brahms :: Vivaldi : Mozart : Tchaikovsky
+**Date and time TBA**
+
+The Brahms Wagner feud is taken to a new level of analysis when scrutinized under synesthesic responses to their musical shapes. [Mathmusician Robby Kraft](http://blog.research-club.org/?p=148512961) and artist and synesthete [Ním Wunnan](http://wunnan.com) team up to explore the concepts and relationships behind this analogy. Kraft will abstract musical shapes from representative works and illustrate the way these shapes evolved and changed as they were assimilated by the next generation. Wunnan will describe (and paint) the same structures through the lense of his grapheme > color and visual > audio synesthesia. Together the two  interpretations of the musical structures will support a dialogue about the nature of tranlsation and what matters in music and art.
+<hr>
 ##Synesthesia bike tour
 
 **Date and time TBA**
