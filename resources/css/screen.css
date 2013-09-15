@@ -508,13 +508,14 @@ div.section em { font-weight: 400;}
 #when h2 em {
     color: #ac5c97;
 }
-#when li {
+#when li, #book li {
     line-height: 31px;
     font-size: 22px;
     float: left;
     width: 45%;
     padding: 14px;
     border-top: 1px solid #8BA83E;
+    min-height: 220px;
 }
 
 small {
@@ -533,7 +534,7 @@ small {
 }
 
 @media only screen and (max-width: 480px) {
-#when li {
+#when li, #book li {
     line-height: 31px;
     font-size: 22px;
     float: left;

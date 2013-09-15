@@ -1,0 +1,15 @@
+<h2 id="events">EVENTS</h2>
+{% assign short_posts = site.posts | sort:date order:ascending %}
+<ul>
+{% for pos in short_posts %}
+    <li>
+        <strong>{{ pos.smalldate }}</strong>
+        <a href="{{ pos.calagator }}" id="{{ pos.name | replace:' : ', '__' |  replace:' :: ','__' | downcase }}">{{ pos.name }}</a>
+                {{ pos.excerpt }}
+    </li>
+{% endfor %}
+</ul>
+
+<h2><a href="#what">More events</a> have dates TBA.</h2>
+
+<hr>

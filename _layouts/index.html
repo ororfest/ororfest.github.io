@@ -10,13 +10,25 @@ layout: base
 <!-- load sections -->
 {% assign sorted_pages = site.pages | sort:"name" %}
 {% for sec in sorted_pages %}
-    {% if page.name != sec.name and sec.name != 'notfound' %}
+    {% if sec.name == 'what' %}
         <div class="section" id="{{ sec.name }}">
         	<br>
           {{ sec.content | markdownify }}
-        </div>
+            {% include eventlist.html %}
+      </div>
+      {%elsif sec.name == 'when' %}
+        <div class="section" id="{{ sec.name }}">
+        	<br>
+          {{ sec.content | markdownify }}
+            {% include eventshortlist.html %}
+      </div>
+    {% elsif page.name != sec.name and sec.name != 'notfound' and sec.name != 'what' %}
+        <div class="section" id="{{ sec.name }}">
+        	<br>
+          {{ sec.content | markdownify }}
+        </div>   
     {% endif %}
-    
 {% endfor %}
+
 {% include support.html %}
 
