@@ -13,5 +13,5 @@ The director of Hack Oregon, sitting on a tower of gin boxes with an easel and s
 
 Presented by [Hack Oregon](http://hackoregon.org) and [New Deal Distillery](http://www.newdealdistillery.com).
 
-RSVP for drink tickets.
+Free drinks with XOXO pass or RSVP.
 
