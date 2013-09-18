@@ -1,7 +1,7 @@
 {% assign sorted_posts = site.posts | sort:date order:ascending %}
 {% for pos in sorted_posts %}
     <hr id="{{ pos.name | replace:' : ', '__' |  replace:' :: ','__' | downcase }}" >
-    <h2 style="margin-top: 60px;" ><a href="{{ pos.calagator }}" id="{{ pos.name | replace:' : ', '__' |  replace:' :: ','__' | downcase }}">{{ pos.name }}</a></h2>
+    <h2 style="margin-top: 60px;" ><a href="{{ pos.calagator }}" id="event_{{pos.name}}">{{ pos.name }}</a></h2>
     <br />
     <strong>{{ pos.smalldate }}</strong>
     <br />
