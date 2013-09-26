@@ -4,7 +4,7 @@
 {% for pos in short_posts %}
     <li>
         <strong>{{ pos.smalldate }}</strong>
-        <a href="{{ pos.calagator }}" id="{{ pos.name | replace:' : ', '__' |  replace:' :: ','__' | downcase }}">{{ pos.name }}</a>
+        <a href="{{ pos.calagator }}" id="{{ pos.name | replace:' : ', '__' |  replace:' :: ','__' }}">{{ pos.name }}</a>
                 {{ pos.excerpt }}
     </li>
 {% endfor %}
