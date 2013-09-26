@@ -6,7 +6,7 @@ location: Flux, 412 NW Couch St. Suite 222
 calagator: http://calagator.org/events/1250464883
 smalldate: POSTPONED -- NEW DATE TBA
 ---	
-#NOTE: This event has been postponed due to panelist availability. New date TBA.
+#NOTE- This event has been postponed due to panelist availability. New date TBA.
 
 A forum discussion to explore how collaboration between government and the creative tech community can promote local prosperity
 
