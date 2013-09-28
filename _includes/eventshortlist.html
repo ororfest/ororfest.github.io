@@ -1,5 +1,5 @@
 <h2 id="events">EVENTS</h2>
-{% assign short_posts = site.posts | sort:date %}
+{% assign short_posts = site.posts | sort:"date" %}
 <ul>
 {% for pos in short_posts order:ascending %}
     <li>
